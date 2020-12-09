@@ -1,0 +1,1097 @@
+17:37:00.818 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase started
+17:37:30.539 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase started
+17:38:32.115 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase started
+17:42:06.909 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase started
+17:43:27.915 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase started
+17:47:07.505 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase started
+17:47:08.100 [main] ERROR org.ridecell.assignment.GitHub.GetRepositoryTest - Get call failed due to unexpected error
+17:47:08.100 [main] ERROR org.ridecell.assignment.GitHub.GetRepositoryTest - Catching
+java.lang.IllegalArgumentException: path cannot be null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26) ~[rest-assured-common-4.3.1.jar:?]
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1598) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171) ~[rest-assured-4.3.1.jar:?]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy) ~[rest-assured-4.3.1.jar:?]
+	at org.ridecell.assignment.GitHub.GetRepositoryTest.GetRepositoryDjango(GetRepositoryTest.java:51) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) ~[junit-4.11.jar:?]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:80) ~[testng-7.3.0.jar:?]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:65) ~[testng-7.3.0.jar:?]
+	at org.testng.TestRunner$1.run(TestRunner.java:650) ~[testng-7.3.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) [?:?]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:841) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:679) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:583) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1069) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1037) [testng-7.3.0.jar:?]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.1.jar:2.22.1]
+17:47:08.110 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase Completed
+17:51:50.129 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase started
+17:51:50.711 [main] ERROR org.ridecell.assignment.GitHub.GetRepositoryTest - Get call failed due to unexpected error
+17:51:50.711 [main] ERROR org.ridecell.assignment.GitHub.GetRepositoryTest - Catching
+java.lang.IllegalArgumentException: path cannot be null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26) ~[rest-assured-common-4.3.1.jar:?]
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1598) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171) ~[rest-assured-4.3.1.jar:?]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy) ~[rest-assured-4.3.1.jar:?]
+	at org.ridecell.assignment.GitHub.GetRepositoryTest.GetRepositoryDjango(GetRepositoryTest.java:51) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:?]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+17:51:50.718 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase Completed
+17:52:08.859 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase started
+17:52:09.421 [main] ERROR org.ridecell.assignment.GitHub.GetRepositoryTest - Get call failed due to unexpected error
+17:52:09.421 [main] ERROR org.ridecell.assignment.GitHub.GetRepositoryTest - Catching
+java.lang.IllegalArgumentException: path cannot be null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26) ~[rest-assured-common-4.3.1.jar:?]
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1598) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171) ~[rest-assured-4.3.1.jar:?]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy) ~[rest-assured-4.3.1.jar:?]
+	at org.ridecell.assignment.GitHub.GetRepositoryTest.GetRepositoryDjango(GetRepositoryTest.java:51) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) ~[junit-4.11.jar:?]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:80) ~[testng-7.3.0.jar:?]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:65) ~[testng-7.3.0.jar:?]
+	at org.testng.TestRunner$1.run(TestRunner.java:650) ~[testng-7.3.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) [?:?]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:841) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:679) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:583) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1069) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1037) [testng-7.3.0.jar:?]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.1.jar:2.22.1]
+17:52:09.429 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase Completed
+17:52:45.155 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase started
+17:52:45.727 [main] ERROR org.ridecell.assignment.GitHub.GetRepositoryTest - Get call failed due to unexpected error
+17:52:45.728 [main] ERROR org.ridecell.assignment.GitHub.GetRepositoryTest - Catching
+java.lang.IllegalArgumentException: path cannot be null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26) ~[rest-assured-common-4.3.1.jar:?]
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1598) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171) ~[rest-assured-4.3.1.jar:?]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy) ~[rest-assured-4.3.1.jar:?]
+	at org.ridecell.assignment.GitHub.GetRepositoryTest.GetRepositoryDjango(GetRepositoryTest.java:51) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) [junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) [junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) [junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) [junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) [junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) [junit-4.11.jar:?]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+17:53:05.475 [main] INFO  org.ridecell.assignment.GitHub.GetRepositoryTest - Get Repository for Django Tescase started
+17:53:06.028 [main] ERROR org.ridecell.assignment.GitHub.GetRepositoryTest - Get call failed due to unexpected error
+17:53:06.028 [main] ERROR org.ridecell.assignment.GitHub.GetRepositoryTest - Catching
+java.lang.IllegalArgumentException: path cannot be null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26) ~[rest-assured-common-4.3.1.jar:?]
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1598) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171) ~[rest-assured-4.3.1.jar:?]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy) ~[rest-assured-4.3.1.jar:?]
+	at org.ridecell.assignment.GitHub.GetRepositoryTest.GetRepositoryDjango(GetRepositoryTest.java:51) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) ~[junit-4.11.jar:?]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:80) ~[testng-7.3.0.jar:?]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:65) ~[testng-7.3.0.jar:?]
+	at org.testng.TestRunner$1.run(TestRunner.java:650) ~[testng-7.3.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) [?:?]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:841) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:679) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:583) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1069) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1037) [testng-7.3.0.jar:?]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.1.jar:2.22.1]
+17:59:51.380 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase started
+17:59:51.943 [main] ERROR org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get call failed due to unexpected error
+17:59:51.944 [main] ERROR org.ridecell.assignment.GitHub.test.GetRepositoryTest - Catching
+java.lang.IllegalArgumentException: path cannot be null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26) ~[rest-assured-common-4.3.1.jar:?]
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1598) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171) ~[rest-assured-4.3.1.jar:?]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy) ~[rest-assured-4.3.1.jar:?]
+	at org.ridecell.assignment.GitHub.test.GetRepositoryTest.GetRepositoryDjango(GetRepositoryTest.java:50) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) ~[junit-4.11.jar:?]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:80) ~[testng-7.3.0.jar:?]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:65) ~[testng-7.3.0.jar:?]
+	at org.testng.TestRunner$1.run(TestRunner.java:650) ~[testng-7.3.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) [?:?]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:841) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:679) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:583) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1069) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1037) [testng-7.3.0.jar:?]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.1.jar:2.22.1]
+18:02:46.711 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase started
+18:02:47.288 [main] ERROR org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get call failed due to unexpected error
+18:02:47.288 [main] ERROR org.ridecell.assignment.GitHub.test.GetRepositoryTest - Catching
+java.lang.IllegalArgumentException: path cannot be null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26) ~[rest-assured-common-4.3.1.jar:?]
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1598) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171) ~[rest-assured-4.3.1.jar:?]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy) ~[rest-assured-4.3.1.jar:?]
+	at org.ridecell.assignment.GitHub.test.GetRepositoryTest.GetRepositoryDjango(GetRepositoryTest.java:50) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) ~[junit-4.11.jar:?]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:80) ~[testng-7.3.0.jar:?]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:65) ~[testng-7.3.0.jar:?]
+	at org.testng.TestRunner$1.run(TestRunner.java:650) ~[testng-7.3.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) [?:?]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:841) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:679) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:583) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1069) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1037) [testng-7.3.0.jar:?]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.1.jar:2.22.1]
+18:03:41.451 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase started
+18:03:42.020 [main] ERROR org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get call failed due to unexpected error
+18:03:42.020 [main] ERROR org.ridecell.assignment.GitHub.test.GetRepositoryTest - Catching
+java.lang.IllegalArgumentException: path cannot be null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.common.assertion.AssertParameter.notNull(AssertParameter.groovy:26) ~[rest-assured-common-4.3.1.jar:?]
+	at io.restassured.internal.common.assertion.AssertParameter$notNull.callStatic(Unknown Source) ~[?:?]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:217) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:240) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1598) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661) ~[rest-assured-4.3.1.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816) ~[groovy-3.0.3.jar:3.0.3]
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171) ~[groovy-3.0.3.jar:3.0.3]
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203) ~[groovy-3.0.3.jar:3.0.3]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171) ~[rest-assured-4.3.1.jar:?]
+	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy) ~[rest-assured-4.3.1.jar:?]
+	at org.ridecell.assignment.GitHub.test.GetRepositoryTest.GetRepositoryDjango(GetRepositoryTest.java:52) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.11.jar:?]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44) ~[junit-4.11.jar:?]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70) ~[junit-4.11.jar:?]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229) ~[junit-4.11.jar:?]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160) ~[junit-4.11.jar:?]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138) ~[junit-4.11.jar:?]
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:80) ~[testng-7.3.0.jar:?]
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:65) ~[testng-7.3.0.jar:?]
+	at org.testng.TestRunner$1.run(TestRunner.java:650) ~[testng-7.3.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) [?:?]
+	at org.testng.TestRunner.runJUnitWorkers(TestRunner.java:841) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:679) [testng-7.3.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:583) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [testng-7.3.0.jar:?]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1069) [testng-7.3.0.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1037) [testng-7.3.0.jar:?]
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146) [surefire-testng-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) [surefire-booter-2.22.1.jar:2.22.1]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) [surefire-booter-2.22.1.jar:2.22.1]
+18:06:12.063 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED------------------
+18:06:12.067 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+18:06:12.067 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: null
+18:06:12.067 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Service URL configured: django/
+18:06:12.067 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+18:06:12.067 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+18:06:12.085 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase started
+18:06:14.496 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get call Successfull
+18:06:14.497 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase Completed
+18:06:14.501 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION COMPLETED----------------
+18:07:46.262 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED------------------
+18:07:46.265 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+18:07:46.265 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs/
+18:07:46.265 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Service URL configured: django/
+18:07:46.265 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+18:07:46.265 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+18:07:46.283 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase started
+18:07:48.409 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get call Successfull
+18:07:48.409 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase Completed
+18:07:48.415 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION COMPLETED----------------
+18:17:14.005 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED------------------
+18:17:14.008 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+18:17:14.008 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs/
+18:17:14.008 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Service URL configured: django/
+18:17:14.008 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+18:17:14.008 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+18:17:14.023 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase started
+18:17:16.334 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: djangosnippets.org
+18:17:16.334 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: djangoproject.com
+18:17:16.334 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: djangobench
+18:17:16.334 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: djangopeople
+18:17:16.334 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: ticketbot
+18:17:16.334 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: code.djangoproject.com
+18:17:16.334 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: django
+18:17:16.334 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: django-contrib-comments
+18:17:16.335 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: django-docs-translations
+18:17:16.335 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: django-localflavor
+18:17:16.335 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: deps
+18:17:16.335 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: channels
+18:17:16.335 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: daphne
+18:17:16.335 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: asgiref
+18:17:16.335 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: channels_redis
+18:17:16.335 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: asgi_ipc
+18:17:16.335 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: code-of-conduct
+18:17:16.335 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: django-box
+18:17:16.336 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Name: django-docker-box
+18:17:16.336 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get call Successfull
+18:17:16.336 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase Completed
+18:17:16.339 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION COMPLETED----------------
+18:21:31.558 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED------------------
+18:21:31.561 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+18:21:31.561 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs/
+18:21:31.561 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Service URL configured: django/
+18:21:31.561 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+18:21:31.562 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+18:21:31.577 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase started
+18:21:33.893 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+18:21:33.894 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+18:21:33.894 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+18:21:33.894 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+18:21:33.894 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+18:21:33.894 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+18:21:33.894 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+18:21:33.895 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+18:21:33.895 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+18:21:33.895 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+18:21:33.895 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+18:21:33.895 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+18:21:33.895 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+18:21:33.895 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+18:21:33.895 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+18:21:33.896 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+18:21:33.896 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+18:21:33.896 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+18:21:33.896 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+18:21:33.896 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get call Successfull
+18:21:33.896 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase Completed
+18:21:33.900 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION COMPLETED----------------
+22:25:22.806 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+22:25:22.809 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+22:25:22.809 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs
+22:25:22.809 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repos
+22:25:22.809 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+22:25:22.809 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+22:25:22.826 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase started
+22:25:25.441 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+22:25:25.442 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+22:25:25.442 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+22:25:25.442 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+22:25:25.442 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+22:25:25.442 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+22:25:25.442 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+22:25:25.442 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+22:25:25.442 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+22:25:25.443 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+22:25:25.443 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+22:25:25.443 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+22:25:25.443 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+22:25:25.443 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+22:25:25.443 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+22:25:25.443 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+22:25:25.443 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+22:25:25.444 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+22:25:25.444 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+22:25:25.444 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get call Successfull
+22:25:25.444 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase Completed
+22:25:25.447 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
+22:26:32.556 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+22:26:32.559 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+22:26:32.559 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs
+22:26:32.559 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repos
+22:26:32.559 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+22:26:32.560 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+22:26:32.576 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase started
+22:26:34.865 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+22:26:34.865 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+22:26:34.865 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+22:26:34.865 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+22:26:34.865 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+22:26:34.865 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+22:26:34.865 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+22:26:34.865 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+22:26:34.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+22:26:34.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+22:26:34.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+22:26:34.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+22:26:34.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+22:26:34.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+22:26:34.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+22:26:34.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+22:26:34.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+22:26:34.867 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+22:26:34.867 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+22:26:34.867 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET  Rest Call Successfull for Repository API
+22:26:34.867 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase Completed
+22:26:34.870 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
+22:28:57.946 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+22:28:57.949 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+22:28:57.949 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs
+22:28:57.949 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repos
+22:28:57.949 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+22:28:57.949 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+22:28:57.965 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase started
+22:29:01.146 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+22:29:01.147 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+22:29:01.147 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+22:29:01.147 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+22:29:01.147 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+22:29:01.147 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+22:29:01.147 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+22:29:01.147 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+22:29:01.148 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+22:29:01.148 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+22:29:01.148 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+22:29:01.148 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+22:29:01.148 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+22:29:01.148 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+22:29:01.148 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+22:29:01.148 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+22:29:01.149 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+22:29:01.149 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+22:29:01.149 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+22:29:01.149 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET  Rest Call Successfull for Repository API
+22:29:01.149 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase Completed
+22:29:01.153 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
+22:29:17.325 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+22:29:17.328 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+22:29:17.328 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs
+22:29:17.328 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repos
+22:29:17.329 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+22:29:17.329 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+22:29:17.344 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET  Rest Call for Repository API started
+22:29:17.344 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET: https://api.github.com/orgs/django/repos
+22:29:19.150 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+22:29:19.150 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+22:29:19.150 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+22:29:19.150 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+22:29:19.150 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+22:29:19.151 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+22:29:19.151 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+22:29:19.151 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+22:29:19.151 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+22:29:19.151 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+22:29:19.151 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+22:29:19.151 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+22:29:19.151 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+22:29:19.152 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+22:29:19.152 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+22:29:19.152 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+22:29:19.152 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+22:29:19.152 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+22:29:19.152 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+22:29:19.152 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET  Rest Call Successfull for Repository API
+22:29:19.152 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository for Django Tescase Completed
+22:29:19.155 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
+22:31:15.330 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+22:31:15.333 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+22:31:15.333 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs
+22:31:15.333 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repos
+22:31:15.333 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+22:31:15.334 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+22:31:15.349 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API started
+22:31:15.349 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET: https://api.github.com/orgs/django/repos
+22:31:20.265 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Status Code: 200
+22:31:20.829 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+22:31:20.829 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+22:31:20.829 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+22:31:20.830 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+22:31:20.830 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+22:31:20.830 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+22:31:20.830 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+22:31:20.831 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+22:31:20.831 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+22:31:20.831 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+22:31:20.831 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+22:31:20.831 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+22:31:20.831 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+22:31:20.831 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+22:31:20.831 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+22:31:20.832 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+22:31:20.832 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+22:31:20.832 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+22:31:20.832 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+22:31:20.832 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call Successfull for Repository API
+22:31:20.832 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API Completed
+22:31:20.837 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
+22:32:21.723 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+22:32:21.726 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+22:32:21.726 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs
+22:32:21.726 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repoasds
+22:32:21.726 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repoasds
+22:32:21.726 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+22:32:21.741 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API started
+22:32:21.741 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET: https://api.github.com/orgs/django/repoasds
+22:32:23.273 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Status Code: 404
+22:32:23.281 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
+23:26:31.157 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+23:26:31.163 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+23:26:31.163 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs
+23:26:31.163 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repos
+23:26:31.164 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+23:26:31.164 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+23:26:31.182 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API started
+23:26:31.183 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET: https://api.github.com/orgs/django/repos
+23:26:33.273 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Status Code: 200
+23:26:33.879 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+23:26:33.880 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+23:26:33.880 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+23:26:33.880 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+23:26:33.880 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+23:26:33.880 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+23:26:33.880 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+23:26:33.880 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+23:26:33.880 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+23:26:33.881 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+23:26:33.881 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+23:26:33.881 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+23:26:33.881 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+23:26:33.881 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+23:26:33.881 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+23:26:33.881 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+23:26:33.881 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+23:26:33.882 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+23:26:33.882 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+23:26:33.882 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call Successfull for Repository API
+23:26:33.882 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API Completed
+23:26:33.886 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
+23:28:32.605 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+23:28:32.610 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+23:28:32.610 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs
+23:28:32.610 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repos
+23:28:32.610 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+23:28:32.610 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+23:28:32.626 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API started
+23:28:32.626 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET: https://api.github.com/orgs/django/repos
+23:28:34.333 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Status Code: 200
+23:28:34.897 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+23:28:34.897 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+23:28:34.898 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+23:28:34.898 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+23:28:34.898 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+23:28:34.898 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+23:28:34.898 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+23:28:34.898 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+23:28:34.899 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+23:28:34.899 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+23:28:34.899 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+23:28:34.899 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+23:28:34.899 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+23:28:34.899 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+23:28:34.899 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+23:28:34.900 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+23:28:34.900 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+23:28:34.900 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+23:28:34.900 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+23:28:34.900 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call Successfull for Repository API
+23:28:34.900 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API Completed
+23:28:34.904 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
+23:29:17.613 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+23:29:17.617 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started
+23:29:17.618 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured: https://api.github.com/orgs
+23:29:17.618 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repos
+23:29:17.618 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+23:29:17.618 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully
+23:29:17.633 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API started
+23:29:17.633 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET: https://api.github.com/orgs/django/repos
+23:29:19.319 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Status Code: 200
+23:29:19.862 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+23:29:19.862 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+23:29:19.862 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+23:29:19.862 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+23:29:19.862 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+23:29:19.862 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+23:29:19.863 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+23:29:19.863 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+23:29:19.863 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+23:29:19.863 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+23:29:19.863 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+23:29:19.863 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+23:29:19.864 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+23:29:19.864 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+23:29:19.864 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+23:29:19.864 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+23:29:19.864 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+23:29:19.864 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+23:29:19.864 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+23:29:19.864 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call Successfull for Repository API
+23:29:19.864 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API Completed
+23:29:19.868 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
+23:57:46.322 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+23:57:46.327 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started for RestAPI
+23:57:46.327 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured for API endpoint: https://api.github.com/orgs
+23:57:46.327 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repos
+23:57:46.327 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+23:57:46.327 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully for Rest API
+23:57:46.327 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - ----------------------------------------------------------------------
+23:57:46.328 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started for Web UI
+23:57:50.614 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Selenium Web Driver Intialized Successfully
+23:57:50.614 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured for WEB UI: https://github.com/django

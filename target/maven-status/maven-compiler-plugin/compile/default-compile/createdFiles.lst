@@ -1,0 +1,5 @@
+org\ridecell\assignment\util\TestUtil$1.class
+org\ridecell\assignment\uiLayer\GithubDjangoProjectUI.class
+org\ridecell\assignment\util\TestUtil.class
+org\ridecell\assignment\base\TestBase.class
+org\ridecell\assignment\pageObjects\GithubDjangoProjectPage.class
