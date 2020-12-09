@@ -1970,3 +1970,135 @@ java.io.FileNotFoundException: C:\Users\Amit Kumar Das\eclipse-workspace\JavaPra
 12:18:17.080 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Browser Windows Closed
 12:18:17.677 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Browser closed
 12:18:17.678 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
+12:40:48.831 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+12:40:48.837 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started for RestAPI
+12:40:48.838 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured for API endpoint: https://api.github.com/orgs
+12:40:48.838 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repos
+12:40:48.838 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+12:40:48.838 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully for Rest API
+12:40:48.838 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - ----------------------------------------------------------------------
+12:40:48.839 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started for Web UI
+12:40:53.546 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Selenium Web Driver Intialized Successfully
+12:40:53.547 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured for WEB UI: https://github.com/django
+12:40:57.748 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Website opened successfully
+12:40:57.748 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - ----------------------------------------------------------------------
+12:40:58.030 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API started
+12:40:58.031 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET: https://api.github.com/orgs/django/repos
+12:41:00.691 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Status Code: 200
+12:41:01.865 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Total Count of Repositories from Rest API: 19
+12:41:01.865 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+12:41:01.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+12:41:01.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+12:41:01.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+12:41:01.866 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+12:41:01.867 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+12:41:01.867 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+12:41:01.867 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+12:41:01.868 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+12:41:01.868 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+12:41:01.868 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+12:41:01.868 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+12:41:01.869 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+12:41:01.869 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+12:41:01.869 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+12:41:01.869 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+12:41:01.869 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+12:41:01.870 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+12:41:01.870 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+12:41:03.760 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Successfully Exported API details to Excel
+12:41:03.760 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call Successful for Repository API
+12:41:03.760 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API Completed
+12:41:03.765 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository from Web UI started
+12:41:03.851 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Total Count of Repositories from UI: 19
+12:41:15.375 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Successfully received repo details from web ui
+12:41:15.376 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+12:41:15.377 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+12:41:15.378 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+12:41:15.378 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+12:41:15.379 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+12:41:15.380 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+12:41:15.381 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+12:41:15.381 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+12:41:15.382 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+12:41:15.383 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+12:41:15.383 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+12:41:15.384 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+12:41:15.385 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+12:41:15.386 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+12:41:15.386 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+12:41:15.387 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+12:41:15.387 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+12:41:15.388 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+12:41:15.388 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+12:41:15.489 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Successfully Exported UI details to Excel
+12:41:15.489 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository from Web UI Completed
+12:41:15.493 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repository Details Asserted Successfully with API Data
+12:41:20.256 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Browser Windows Closed
+12:41:20.856 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Browser closed
+12:41:20.856 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
+13:17:18.931 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------------EXECUTION STARTED FOR REPOSITORY TEST------------------
+13:17:18.938 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started for RestAPI
+13:17:18.938 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured for API endpoint: https://api.github.com/orgs
+13:17:18.938 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Rest Endpoint URL configured for Repository Test: /django/repos
+13:17:18.938 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - System has configured the following application endpoint: https://api.github.com/orgs/django/repos
+13:17:18.938 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Completed Successfully for Rest API
+13:17:18.939 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - ----------------------------------------------------------------------
+13:17:18.939 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Test Configuration Started for Web UI
+13:17:23.075 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Selenium Web Driver Intialized Successfully
+13:17:23.076 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - URL Configured for WEB UI: https://github.com/django
+13:17:30.090 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Website opened successfully
+13:17:30.090 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - ----------------------------------------------------------------------
+13:17:30.301 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API started
+13:17:30.302 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET: https://api.github.com/orgs/django/repos
+13:17:32.613 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Status Code: 200
+13:17:33.354 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Total Count of Repositories from Rest API: 19
+13:17:33.354 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+13:17:33.354 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+13:17:33.355 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+13:17:33.355 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+13:17:33.355 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+13:17:33.355 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+13:17:33.355 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+13:17:33.355 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+13:17:33.356 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+13:17:33.356 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+13:17:33.356 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+13:17:33.356 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+13:17:33.356 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+13:17:33.356 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+13:17:33.356 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+13:17:33.356 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+13:17:33.356 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+13:17:33.356 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+13:17:33.356 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+13:17:34.238 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Successfully Exported API details to Excel
+13:17:34.238 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call Successful for Repository API
+13:17:34.238 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - GET Rest Call for Repository API Completed
+13:17:34.243 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository from Web UI started
+13:17:34.308 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Total Count of Repositories from UI: 19
+13:17:45.124 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Successfully received repo details from web ui
+13:17:45.124 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django - Repo Desc: The Web framework for perfectionists with deadlines.
+13:17:45.124 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels - Repo Desc: Developer-friendly asynchrony for Django
+13:17:45.124 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangosnippets.org - Repo Desc: The code that powers djangosnippets.org, it allows users to post and share useful "snippets" of code.
+13:17:45.124 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangoproject.com - Repo Desc: Source code to djangoproject.com
+13:17:45.124 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgiref - Repo Desc: ASGI specification and utilities
+13:17:45.124 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docs-translations - Repo Desc: Translations of the Django documentation. Questions and discussions happen on https://groups.google.com/forum/#!forum/django-i18n
+13:17:45.125 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: daphne - Repo Desc: Django Channels HTTP/WebSocket server
+13:17:45.125 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: channels_redis - Repo Desc: Redis channel layer backend for Django Channels
+13:17:45.125 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-contrib-comments - Repo Desc: null
+13:17:45.125 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: deps - Repo Desc: Django Enhancement Proposals
+13:17:45.125 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangobench - Repo Desc: Harness and benchmarks for evaluating Django's performance over time
+13:17:45.125 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-localflavor - Repo Desc: Country-specific Django helpers, formerly of contrib fame
+13:17:45.125 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: djangopeople - Repo Desc: A geographical community site for Django developers
+13:17:45.125 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code.djangoproject.com - Repo Desc: Configuration for Django's Trac instance (code.djangoproject.com)
+13:17:45.125 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-docker-box - Repo Desc: Run the Django test suite across all supported databases and python versions
+13:17:45.126 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: asgi_ipc - Repo Desc: IPC-based ASGI channel layer
+13:17:45.126 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: code-of-conduct - Repo Desc: Internal documentation of the DSF Code of Conduct committee
+13:17:45.126 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: ticketbot - Repo Desc: Django's IRC ticketbot. Linkifies tickets and changesets. Hangs out in #django and #django-dev.
+13:17:45.126 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repo Name: django-box - Repo Desc: VM to run the Django test suite. ARCHIVED Please use https://github.com/django/django-docker-box
+13:17:45.165 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Successfully Exported UI details to Excel
+13:17:45.165 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Get Repository from Web UI Completed
+13:17:45.167 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Repository Details Asserted Successfully with API Data
+13:17:49.642 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Browser Windows Closed
+13:17:50.188 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - Browser closed
+13:17:50.188 [main] INFO  org.ridecell.assignment.GitHub.test.GetRepositoryTest - -------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------
