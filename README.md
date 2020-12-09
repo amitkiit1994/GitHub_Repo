@@ -21,9 +21,26 @@ Also add the system environment variables JAVA_HOME and MAVEN_HOME and set it wi
 ```bash
 git clone https://github.com/amitkiit1994/RideCell_Project.git
 ```
-2. Open Eclipse or IntellJ
+2. Open Eclipse or IntellJ or any IDE
 3. Use Import Project Wizard to import Git Project
-4. Run the pom.xml in the project directory
+
+## Execution (with IDE)
+
+1. Run the pom.xml as Maven clean
+2. Once clean build is successful, run the pom.xml as Maven install to start the execution
+
+## Execution (with Command Prompt or Bash Shell)
+
+1. Open the CLI
+2. 
+```bash
+cd <Project location>
+mvn clean install
+```
+
+# Execution Details
+On Successful execution of the project, User shall receive a mail of the report and all the details of execution.
+Note: The config.properties file must be configured correctly with proper email id and password
 
 ## Detailed Information
 
@@ -65,7 +82,3 @@ To send report of the automation to the mail recipient
 To write the API results and UI Results data to excel
 ### src/test/java
 This package has the test files that is recognized by testng runner while running pom.xml file
-
-# Execution Details
-On Successful execution of the project, User shall receive a mail of the report and all the details of execution.
-Note: The config.properties file must be configured correctly with proper email id and password
