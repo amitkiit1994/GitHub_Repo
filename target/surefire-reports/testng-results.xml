@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-09T13:17:18 IST" name="Surefire suite" finished-at="2020-12-09T13:17:50 IST" duration-ms="31268">
+  <suite started-at="2020-12-09T17:18:37 IST" name="Surefire suite" finished-at="2020-12-09T17:19:09 IST" duration-ms="32091">
     <groups>
     </groups>
-    <test started-at="2020-12-09T13:17:18 IST" name="Surefire test" finished-at="2020-12-09T13:17:50 IST" duration-ms="31268">
+    <test started-at="2020-12-09T17:18:37 IST" name="Surefire test" finished-at="2020-12-09T17:19:09 IST" duration-ms="32091">
       <class name="org.ridecell.assignment.GitHub.test.GetRepositoryTest">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T13:17:18 IST" name="initialize" finished-at="2020-12-09T13:17:30 IST" duration-ms="11168" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T17:18:37 IST" name="initialize" finished-at="2020-12-09T17:18:45 IST" duration-ms="7691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method is-config="true" signature="startTest()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T13:17:30 IST" name="startTest" finished-at="2020-12-09T13:17:30 IST" duration-ms="163" status="PASS">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T17:18:45 IST" name="startTest" finished-at="2020-12-09T17:18:45 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="GetRepositoryDjangoAPI()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T13:17:30 IST" name="GetRepositoryDjangoAPI" finished-at="2020-12-09T13:17:34 IST" duration-ms="3938" status="PASS">
+        <test-method signature="GetRepositoryDjangoAPI()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T17:18:45 IST" name="GetRepositoryDjangoAPI" finished-at="2020-12-09T17:18:48 IST" duration-ms="2755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetRepositoryDjangoAPI -->
-        <test-method signature="GetRepositoryDjangoUI()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T13:17:34 IST" name="GetRepositoryDjangoUI" finished-at="2020-12-09T13:17:45 IST" duration-ms="10923" status="PASS">
+        <test-method signature="GetRepositoryDjangoUI()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T17:18:48 IST" name="GetRepositoryDjangoUI" finished-at="2020-12-09T17:18:59 IST" duration-ms="10952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GetRepositoryDjangoUI -->
-        <test-method signature="assertingUIDataWithApiData()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T13:17:45 IST" name="assertingUIDataWithApiData" finished-at="2020-12-09T13:17:45 IST" depends-on-methods="org.ridecell.assignment.GitHub.test.GetRepositoryTest.GetRepositoryDjangoAPI, org.ridecell.assignment.GitHub.test.GetRepositoryTest.GetRepositoryDjangoUI" duration-ms="0" status="PASS">
+        <test-method signature="assertingUIDataWithApiData()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T17:18:59 IST" name="assertingUIDataWithApiData" finished-at="2020-12-09T17:18:59 IST" depends-on-methods="org.ridecell.assignment.GitHub.test.GetRepositoryTest.GetRepositoryDjangoAPI, org.ridecell.assignment.GitHub.test.GetRepositoryTest.GetRepositoryDjangoUI" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertingUIDataWithApiData -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T13:17:45 IST" name="endTest" finished-at="2020-12-09T13:17:45 IST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="endTest()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T17:18:59 IST" name="endTest" finished-at="2020-12-09T17:18:59 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="finishingTests()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T13:17:45 IST" name="finishingTests" finished-at="2020-12-09T13:17:50 IST" duration-ms="4867" status="PASS">
+        <test-method is-config="true" signature="finishingTests()[pri:0, instance:org.ridecell.assignment.GitHub.test.GetRepositoryTest@512baff6]" started-at="2020-12-09T17:18:59 IST" name="finishingTests" finished-at="2020-12-09T17:19:09 IST" duration-ms="10358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finishingTests -->

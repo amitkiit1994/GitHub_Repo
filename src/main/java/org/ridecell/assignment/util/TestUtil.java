@@ -10,6 +10,9 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.TreeMap;
 
+import javax.activation.DataHandler;
+import javax.activation.DataSource;
+import javax.activation.FileDataSource;
 import javax.mail.*;
 import javax.mail.internet.*;
 
@@ -22,7 +25,7 @@ import org.ridecell.assignment.base.TestBase;
 
 public class TestUtil extends TestBase{
 	
-	public static void sendMail() throws IOException {
+	public static boolean sendMail(String subject) throws IOException {
 		Properties props=new Properties();
 	    props.put("mail.smtp.auth", true);
 	    props.put("mail.smtp.starttls.enable", true);
@@ -47,10 +50,12 @@ public class TestUtil extends TestBase{
 	         message.addRecipient(Message.RecipientType.TO, new InternetAddress(prop.getProperty("To_Mail_Recipient")));
 
 	         // Set Subject: header field
-	         message.setSubject("Best Buy Test Results");
+	         message.setSubject(subject);
 
 	         BodyPart messageBodyPart = new MimeBodyPart();
 	         BodyPart messageBodyPart1 = new MimeBodyPart();
+	         BodyPart messageBodyPart2 = new MimeBodyPart();
+	         BodyPart messageBodyPart3 = new MimeBodyPart();
 
 	         // Fill the message
 	         messageBodyPart.setText("TEST RESULTS by Amit");
@@ -62,13 +67,30 @@ public class TestUtil extends TestBase{
 	         multipart.addBodyPart(messageBodyPart);
 
 	         // Part two is attachment
-//	         messageBodyPart = new MimeBodyPart();
-//	         String filename = System.getProperty("user.dir")
-//						+ "\\target\\surefire-reports\\index.html";
-//	         DataSource source = new FileDataSource(filename);
-//	         messageBodyPart.setDataHandler(new DataHandler(source));
-//	         messageBodyPart.setFileName(filename);
-//	         multipart.addBodyPart(messageBodyPart);
+	         messageBodyPart = new MimeBodyPart();
+	         String filename = System.getProperty("user.dir")
+						+ "\\ExtentReportResults.html";
+	         DataSource source = new FileDataSource(filename);
+	         messageBodyPart.setDataHandler(new DataHandler(source));
+	         messageBodyPart.setFileName("ExtentReportResults.html");
+	         multipart.addBodyPart(messageBodyPart);
+	         
+	         messageBodyPart2 = new MimeBodyPart();
+	         String excelfilenameUI = System.getProperty("user.dir")
+						+ "\\execdir\\"+prop.getProperty("FileNameAPIData")+".xlsx";
+	         DataSource sourceExcelUI = new FileDataSource(excelfilenameUI);
+	         messageBodyPart2.setDataHandler(new DataHandler(sourceExcelUI));
+	         messageBodyPart2.setFileName(prop.getProperty("FileNameAPIData")+".xlsx");
+	         multipart.addBodyPart(messageBodyPart2);
+	         
+	         messageBodyPart3 = new MimeBodyPart();
+	         String excelfilenameApi = System.getProperty("user.dir")
+	        		 + "\\execdir\\"+prop.getProperty("FileNameUIData")+".xlsx";
+	         DataSource sourceExcelApi = new FileDataSource(excelfilenameApi);
+	         messageBodyPart3.setDataHandler(new DataHandler(sourceExcelApi));
+	         messageBodyPart3.setFileName(prop.getProperty("FileNameUIData")+".xlsx");
+	         multipart.addBodyPart(messageBodyPart3);
+	         
 	         messageBodyPart1 = new MimeBodyPart();
 	         String filename1 = System.getProperty("user.dir")
 						+ "\\target\\surefire-reports\\emailable-report.html";
@@ -81,13 +103,15 @@ public class TestUtil extends TestBase{
 
 	         // Send message
 	         Transport.send(message);
-	         System.out.println("MESSAGE SENT SUCCESSFULLY");
+	         return true;
 	      } catch (MessagingException mex) {
 	         mex.printStackTrace();
+	         return false;
 	      }
 		catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
+			return false;
 		}
 		
 	}

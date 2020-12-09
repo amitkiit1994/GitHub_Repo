@@ -27,9 +27,6 @@ import com.relevantcodes.extentreports.LogStatus;
 
 import io.restassured.response.Response;
 
-/**
- * Unit test for simple App.
- */
 public class GetRepositoryTest extends TestBase {
 	private static final Logger logger = LogManager.getLogger(GetRepositoryTest.class);
 	static TestBase testbase = new TestBase();
@@ -81,12 +78,11 @@ public class GetRepositoryTest extends TestBase {
 		}
 
 	}
-	
+
 	@BeforeClass
-	public static void startTest()
-	{
-	report = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResults.html");
-	test = report.startTest("Django Repository Test");
+	public static void startTest() {
+		report = new ExtentReports(System.getProperty("user.dir") + "\\ExtentReportResults.html");
+		test = report.startTest("Django Repository Test");
 	}
 
 	@Test
@@ -107,7 +103,8 @@ public class GetRepositoryTest extends TestBase {
 				repoDetailsMapApi.put(allNames.get(i), allDesc.get(i));
 			}
 			logger.info("Total Count of Repositories from Rest API: " + repoDetailsMapApi.size());
-			test.log(LogStatus.INFO, "Status Code: " + "Total Count of Repositories from Rest API: " + repoDetailsMapApi.size());
+			test.log(LogStatus.INFO,
+					"Status Code: " + "Total Count of Repositories from Rest API: " + repoDetailsMapApi.size());
 			for (Map.Entry<String, String> map : repoDetailsMapApi.entrySet()) {
 				logger.info("Repo Name: " + map.getKey() + " - Repo Desc: " + map.getValue());
 			}
@@ -153,7 +150,7 @@ public class GetRepositoryTest extends TestBase {
 			if (githubDjangoProjectUI.getAllRepositoriesNameDesc()) {
 				logger.info("Successfully received repo details from web ui");
 				test.log(LogStatus.INFO, "Successfully received repo details from web ui");
-				
+
 			} else {
 				logger.error("Error receiving Names and Description from web ui");
 				test.log(LogStatus.ERROR, "Error receiving Names and Description from web ui");
@@ -208,12 +205,11 @@ public class GetRepositoryTest extends TestBase {
 			assertTrue(false);
 		}
 	}
-	
+
 	@AfterClass
-	public static void endTest()
-	{
-	report.endTest(test);
-	report.flush();
+	public static void endTest() {
+		report.endTest(test);
+		report.flush();
 	}
 
 	@AfterTest
@@ -222,8 +218,12 @@ public class GetRepositoryTest extends TestBase {
 		logger.info("Browser Windows Closed");
 		driver.quit();
 		logger.info("Browser closed");
+		if (TestUtil.sendMail("Django Repository Test")) {
+			logger.info("Mail Sent Successfully to: " + prop.getProperty("To_Mail_Recipient"));
+		} else {
+			logger.error("Sending Mail could not be completed due to unexpected error");
+		}
 		logger.info("-------------EXECUTION FOR REPOSITORY TEST COMPLETED----------------");
-//		testutl = new TestUtil();
-//		TestUtil.sendMail();
+
 	}
 }
