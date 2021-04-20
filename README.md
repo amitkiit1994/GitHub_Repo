@@ -18,11 +18,12 @@ Also add the system environment variables JAVA_HOME and MAVEN_HOME and set it wi
 ## Installation
 
 1. Open Git bash terminal
+2. Navigate to your home directory
 ```bash
 git clone https://github.com/amitkiit1994/RideCell_Project.git
 ```
-2. Open Eclipse or IntellJ or any IDE
-3. Use Import Project Wizard to import Git Project
+3. Open Eclipse or IntellJ or any IDE
+4. Use Import Project Wizard to import Git Project from your home directory
 
 ## Execution (with IDE)
 
